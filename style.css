@@ -1,0 +1,117 @@
+#all{
+	background-color: #61122f;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-expand .navbar-brand{
+	font-size: 2em;
+	color: #ffffff;
+    
+}
+
+.navbar-expand .navbar-collapse{
+	border: none;
+}
+#nav-list a:active{
+	border: none; 
+	border-width: 0px;
+}
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #e7e7e7;
+}
+
+#header-nav button.navbar-toggler{
+	border: 2px solid #61122f;
+	background: #ffffff;
+}
+
+
+.section-background-color{
+	background-color: #f29c54;
+    border: 5px solid #61122f;
+} 
+
+
+@media (min-width: 1200px) {
+	.col-lg-4{
+		width: 32.33333%;
+	}
+	#nav-list{
+		display: none !important;
+	}
+}
+
+
+@media (min-width: 767px) and (max-width: 1199px) {
+	#chicken{
+		margin-right:5px;
+	}
+	#beef{
+		margin-right: 5px;
+	}
+
+	#sushi{
+		margin-top: 10px;
+	}
+	.col-md-6{
+		width: 48%;
+	}
+	.internal-link{
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+	 a:hover{
+	 	color: white;
+	}
+    #nav-list{
+        display: block !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+	h1{
+		margin-left: 25px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	#company-name{
+		font-size: 2em;
+		color: white;
+	}
+	.navbar-expand-lg.navbar-collapse{
+		border: none;
+		background-color: white;
+	}
+	.col-md-6, .col-lg-4{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	#beef{
+		margin: 10px 0px;
+	}
+	.internal-link{
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+	 a:hover{
+	 	color: white;
+	}
+    #nav-list{
+        display: block !important;
+	}
+    
+}
